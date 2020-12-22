@@ -1,0 +1,164 @@
+<!DOCTYPYE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/logo.png" width="125px">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li>
+                        <a href=""></a>Home</li>
+                    <li>
+                        <a href=""></a>Products</li>
+                    <li>
+                        <a href=""></a>About</li>
+                    <li>
+                        <a href=""></a>Contact</li>
+                    <li>
+                        <a href=""></a>Account</li>
+                </ul>
+            </nav>
+            <img src="images/cart.png" width="30px" height="30px">
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+
+
+    <!------------single product detials-------------->
+    <div class="small-container single-product">
+        <div class="row">
+            <div class="col-2">
+                <img src="images/gallery-1.jpg" width="100%" id="ProductImg">
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="images/gallery-1.jpg" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/gallery-2.jpg" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/gallery-3.jpg" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/gallery-4.jpg" width="100%" class="small-img">
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-2">
+                <p>Home / T-shirt</p>
+                <h1>Red Printed T-shirt by HRX</h1>
+                <h4>₹399</h4>
+                <select>
+                    <option>Select size</option>
+                    <option>S</option>
+                    <option>M</option>
+                    <option>L</option>
+                    <option>XL</option>
+                    <option>XXL</option>
+                </select>
+                <input type="number" value="1">
+                <a href="" class="btn">Add To Cart</a>
+
+                <h3>Product Detials <i class="fa fa-indent"></i></h3><br>
+                <p>Red Mens Tshirts - Buy Red Mens Tshirts at India's Best Online Shopping Store. Check Price in India and Shop Online. <br>✓ Free Shipping <br>✓ Cash on Delivery</p>
+            </div>
+        </div>
+    </div>
+
+    <!-----cart----->
+
+    <div class="small-container">
+        <table>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Subtotal</th>
+            </tr>
+            <tr>
+                <td>Product Name</td>
+                <td><input type="number" value="1"></td>
+                <td>₹599</td>
+            </tr>
+        </table>
+    </div>
+
+
+
+    <!------------------footer--------------------------->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download our App</h3>
+                    <p>download for android and ios mobile phones </p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png">
+
+                        <img src="images/app-store.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logo-white.png">
+                    <p>Our purpose is to sustainably make the pleasure and benifits </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return policies</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Tweeter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2020 - Resaler's Bay</p>
+        </div>
+    </div>
+
+    <!--------------toggle------------->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItens.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (MenuItens.style.maxHeight == "0px") {
+                MenuItens.style.maxHeight = "200px";
+            } else {
+                MenuItens.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+
+
+
+</body>
+
+</html>

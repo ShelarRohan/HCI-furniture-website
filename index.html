@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RedStore | Ecomerce site design </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+
+
+
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+
+
+
+    <!--font-awesome.min.css-->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!--linear icon css-->
+    <link rel="stylesheet" href="css/linearicons.css">
+
+    <!--animate.css-->
+    <link rel="stylesheet" href="css/animate.css">
+
+    <!--owl.carousel.css-->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <!--bootstrap.min.css-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- bootsnav -->
+    <link rel="stylesheet" href="css/bootsnav.css">
+
+    <!--style.css-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--responsive.css-->
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+<style>
+    li>a:hover {
+        cursor: pointer;
+    }
+    
+    .nav-item>a:hover {
+        transition: 1s;
+        animation: reverse;
+    }
+</style>
+
+<body>
+    <div class="header">
+
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="images/logo.png" width="125px">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li class="nav-item"><a class="nav-link" href="index.html"><span>Home</span></a></li>
+                        <li class="nav-item"><a class="nav-link" href="products.html"><span>Products</span></a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html"><span>About</span></a></li>
+                        <li class="nav-item"><a class="nav-link" href="contactus.html"><span>Contact</span></a></li>
+                        <li class="nav-item"><a class="nav-link" href="loginindex.html"><span>Login</span></a></li>
+                    </ul>
+                </nav>
+                <img src="images/cart.png" width="30px" height="30px">
+                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>Get yourself <br> The Best Deals !</h1>
+                    <p>Never judge the Book , by its Cover</p>
+                    <a href="" class="btn">Explore Now &#8594;</a>
+                </div>
+                <div class="col-2">
+                    <img src="images/slider2.png">
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!--------------------------------------------------------------------------------featured categories----------------------------------------------------------------------->
+
+    <section id="populer-products" class="populer-products">
+        <div class="container">
+            <div class="populer-products-content">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="single-populer-products">
+                            <div class="single-populer-product-img mt40">
+                                <img src="images/p1.png" alt="populer-products images">
+                            </div>
+                            <h2><a href="#">arm chair</a></h2>
+                            <div class="single-populer-products-para">
+                                <p>Nemo enim ipsam voluptatem quia volu ptas sit asperna aut odit aut fugit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="single-populer-products">
+                            <div class="single-inner-populer-products">
+                                <div class="row">
+                                    <div class="col-md-4 col-sm-12">
+                                        <div class="single-inner-populer-product-img">
+                                            <img src="images/p2.png" alt="populer-products images">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-8 col-sm-12">
+                                        <div class="single-inner-populer-product-txt">
+                                            <h2>
+                                                <a href="#">
+                                                    latest designed stool <span>and</span> chair
+                                                </a>
+                                            </h2>
+                                            <p>
+                                                Edi ut perspiciatis unde omnis iste natusina error sit voluptatem accusantium doloret mque laudantium, totam rem aperiam.
+                                            </p>
+                                            <div class="populer-products-price">
+                                                <h4>Sales Start from <span>$99.00</span></h4>
+                                            </div>
+                                            <button class="btn-cart welcome-add-cart populer-products-btn" onclick="window.location.href='#'">
+                                                discover more
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="single-populer-products">
+                            <div class="single-populer-products">
+                                <div class="single-populer-product-img">
+                                    <img src="images/p3.png" alt="populer-products images">
+                                </div>
+                                <h2><a href="#">hanging lamp</a></h2>
+                                <div class="single-populer-products-para">
+                                    <p>Nemo enim ipsam voluptatem quia volu ptas sit asperna aut odit aut fugit.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/.container-->
+
+    </section>
+    <!--/.populer-products-->
+
+    <!------------------------featured Products---------------------------------->
+    <div class="small-container">
+        <h2 class="title">New Arrivals</h2>
+        <div class="row">
+            <div class="col-4">
+                <a href="table/product-a.html">
+                    <img src="images/product-1.jpg">   </a>
+                <h4>Red printed T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹399.00</p>
+            </div>
+            <div class="col-4">
+                <a href="https://www.qries.com/">
+                    <img src="images/product-2.jpg"></a>
+                <h4>Black Sport Shoes</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>₹999.00</p>
+            </div>
+            <div class="col-4">
+                <a href="https://www.qries.com/">
+                    <img src="images/product-3.jpg"></a>
+                <h4>Cool Track Pant</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹699.00</p>
+            </div>
+            <div class="col-4">
+                <a href="https://www.qries.com/">
+                    <img src="images/product-4.jpg">
+                </a>
+
+                <h4>Cotton T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>₹899.00</p>
+            </div>
+        </div>
+        <!-- -------------------------Chair section ----------------------------------- -->
+        <h2 class="title1">All Products</h2>
+        <h2 class="title2">Chair's</h2>
+
+        <div class="row">
+
+            <div class="col-4">
+
+                <a href="chairs/product-a.html">
+                    <img src="pics/chair 1.png">   </a>
+                <h4>Chair 1</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹2,999.00</p>
+            </div>
+            <div class="col-4">
+                <a href="chairs/product-b.html">
+                    <img src="pics/chair 2.png"></a>
+                <h4>Chair 2</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>₹999.00</p>
+            </div>
+            <div class="col-4">
+                <a href="chairs/product-c.html">
+                    <img src="pics/chair 3.png"></a>
+                <h4>Chair 3</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹299.00</p>
+            </div>
+            <div class="col-4">
+                <a href="chairs/product-d.html">
+                    <img src="pics/chair 4.png"></a>
+                <h4>Chair 4</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>₹20,999.00</p>
+            </div>
+        </div>
+        <!-- ------------------------- Tabel section ----------------------------------- -->
+        <h2 class="title2">Table's</h2>
+
+        <div class="row">
+
+            <div class="col-4">
+                <a href="table/product-a.html">
+                    <img src="pics/table 1.png"> </a>
+                <h4>Table 1</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹2,999.00</p>
+            </div>
+            <div class="col-4">
+                <a href="table/product-b.html">
+                    <img src="pics/table 2.png"> </a>
+                <h4>Table 2</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>₹999.00</p>
+            </div>
+            <div class="col-4">
+                <a href="table/product-c.html">
+                    <img src="pics/table 3.png"> </a>
+                <h4>Table 3</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹299.00</p>
+            </div>
+            <div class="col-4">
+                <a href="table/product-d.html">
+                    <img src="pics/table 4.png"> </a>
+                <h4>Table 4</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>₹20,999.00</p>
+            </div>
+        </div>
+        <!-- ------------------------- Sopha section ----------------------------------- -->
+        <h2 class="title2">Sopha's</h2>
+
+        <div class="row">
+
+            <div class="col-4">
+                <a href="sopha/product-a.html">
+                    <img src="pics/sofa 3.png"> </a>
+                <h4>Sopha 1</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹2,999.00</p>
+            </div>
+            <div class="col-4">
+                <a href="sopha/product-b.html">
+                    <img src="images/product-6.jpg"> </a>
+                <h4>Sopha 2</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>₹999.00</p>
+            </div>
+            <div class="col-4">
+                <a href="sopha/product-c.html">
+                    <img src="images/product-7.jpg"> </a>
+                <h4>Sopha 3</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹299.00</p>
+            </div>
+            <div class="col-4">
+                <a href="sopha/product-d.html">
+                    <img src="images/product-8.jpg"> </a>
+                <h4>Sopha 4</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>₹20,999.00</p>
+            </div>
+        </div>
+
+    </div>
+    <!----------------------------------------offer-------------------------------------->
+    <div class="sofa-collection collectionbg2">
+        <div class="container">
+            <div class="sofa-collection-txt">
+                <h2>unlimited dainning table collection</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+                <div class="sofa-collection-price">
+                    <h4>strting from <span>$ 299</span></h4>
+                </div>
+                <!-- <button class="btn-cart welcome-add-cart sofa-collection-btn" onclick="window.location.href='#'">
+                    view more
+                    <button> -->
+                <button type="button" onclick="window.location.href='#'" class="btn btn-primary">View More</button>
+            </div>
+        </div>
+    </div>
+    <!----------------------testimonial--------------------->
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>What so ever happens , but we will fight to gain the knowldge</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <img src="images/user-1.jpg">
+                    <h3>Sandesh More</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>What so ever happens , but we will fight to gain the knowldge</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <img src="images/user-2.png">
+                    <h3>Bhanudas Rane</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>What so ever happens , but we will fight to gain the knowldge</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <img src="images/user-3.png">
+                    <h3>Rohan Shelar</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------------brands------------------------------>
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="images/logo-godrej.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-oppo.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-coca-cola.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-paypal.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-philips.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------footer--------------------------->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download our App</h3>
+                    <p>download for android and ios mobile phones </p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png">
+
+                        <img src="images/app-store.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logo-white.png">
+                    <p>Our purpose is to sustainably make the pleasure and benifits </p>
+                </div>
+                <ul>
+                    <div class="social-media">
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-google"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </ul>
+
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2020 - Resaler's Bay</p>
+        </div>
+    </div>
+
+    <!--------------toggle------------->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItens.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (MenuItens.style.maxHeight == "0px") {
+                MenuItens.style.maxHeight = "200px";
+            } else {
+                MenuItens.style.maxHeight = "0px";
+            }
+        }
+    </script>
+</body>
+
+</html>
